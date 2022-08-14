@@ -1,0 +1,41 @@
+https://api.themoviedb.org/3/discover/tv?with_network=213&language=pt-BR&api_key=04d8f401737b40e04b82f03bf2f82f21
+
+
+
+const basicFetch = async (endpoint) => {
+    const req = await fetch(`${API_BASE}${endpoint}&language=pt-BR&api_key=${API_KEY}`);
+
+const json = await req.json();
+return json;
+}
+
+
+
+
+items: ( `${API_BASE}${endpoint}/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
+
+
+
+
+
+https://api.themoviedb.org/3/discover/tv?with_network=213&language=pt-BR&api_key=04d8f401737b40e04b82f03bf2f82f21
+https://api.themoviedb.org/3/discover/tv?with_network=213&language=pt-BR&api_key=04d8f401737b40e04b82f03bf2f82f21
+https://api.themoviedb.org/3/discover/tv?with_network=213&language=pt-BR&api_key=04d8f401737b40e04b82f03bf2f82f21
+
+https://api.themoviedb.org/3/movie/1416&language=pt-BR&api_key=38c007f28d5b66f36b9c3cf8d8452a4b
+
+
+
+https://api.themoviedb.org/3/trending/all/week?language=pt-BR&api_key=04d8f401737b40e04b82f03bf2f82f21
+
+api key = 38c007f28d5b66f36b9c3cf8d8452a4b
+
+
+minha api key = 04d8f401737b40e04b82f03bf2f82f21
+
+
+
+
+ -- Deu merda na função basicFetch, foram quase dois dias pesquisando para descobrir onde estava o erro..... Refiz a função e a linha ITEMS da lista do getHomeList do zero e depois de algumas horas ela buscou normalmente.
+ 
+ https://api.themoviedb.org/3/movie/966&language=pt-BR&api_key=38c007f28d5b66f36b9c3cf8d8452a4b
